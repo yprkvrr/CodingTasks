@@ -6,7 +6,9 @@ public class Pal {
 
         String str = Integer.toString(x);
         StringBuilder reverseStr = new StringBuilder(str);
+
         String reversedNum = reverseStr.reverse().toString();
+
         if (reversedNum.equals(str))
             isPalindromeNum = true;
 
